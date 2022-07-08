@@ -1,0 +1,16 @@
+name: First Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  first_workflow:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Echo message
+        run:
+          echo "Hello, this is the first workflow"
+
+
