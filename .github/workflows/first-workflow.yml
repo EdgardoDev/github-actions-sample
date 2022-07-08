@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Echo message
-        run:
+        run: |
           echo "Hello, this is the first workflow"
+      - name: What is todays date
+        run: date
+      - run: ls -l
 
 
