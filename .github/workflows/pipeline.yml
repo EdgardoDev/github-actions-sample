@@ -23,4 +23,7 @@ jobs:
         run: npm run build
       - name: Test
         run: npm test
+      - name: E2E Tests
+        run: cypres.io/github-action@v2
+
 
