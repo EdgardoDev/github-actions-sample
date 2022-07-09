@@ -104,7 +104,6 @@ dist
 .tern-port
 
 # Cypress
-cypress/support
 cypress/screenshots
 cypress/fixtures
 
